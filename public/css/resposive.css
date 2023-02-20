@@ -1,0 +1,159 @@
+@media only screen and (min-width:540px) and (max-width:1199px){
+	.carousel-caption {
+/*	    position: relative;*/
+	    top: 35%;
+	    bottom: 0px;
+	    right: 0px;
+	    left: 0px;
+	    z-index: 10;
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	    color: #fff;
+	    text-align: left;
+	    padding-left: 50px;
+	}
+	.carousel-caption h5{
+		font-size: 15px;
+		position: inherit;
+		top: 0px;
+		left: initial;
+	}
+	.carousel-caption p {
+	    font-size: 33px;
+	}
+	.live-competition a{
+     position: initial;
+     right: 19%;
+     bottom: 0%;
+}
+.control-buttons {
+    display: none;
+}
+.live-competition h3 {
+   position: absolute;
+    top: 67%;
+    left: 0%;
+    font-size: 20px;
+    color: #f53c87;
+}
+.live-competition img {
+    height: auto;
+    width: 100%;
+    opacity: 50%;
+}
+.live-competition .card-body p {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    background-color: #f53c87;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:539px) {
+	.carousel-section {
+    width: 101%;
+}
+    .carousel-indicators{
+        display: none;
+    }
+    .carousel-caption {
+	    position: absolute;
+/*	    top: 0%;*/
+	    right: 0px;
+	    bottom: -15px;
+	    left: 0px;
+	    z-index: 10;
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	    color: #fff;
+	    text-align: left;
+	    padding-left: 50px;
+	}
+	.carousel-caption h5{
+		font-size: 10px;
+		position: inherit;
+		top: 0px;
+		left: initial;
+	}
+	.carousel-caption p {
+	    font-size: 15px;
+	}
+	button.view-events a {
+    color: #ffffff;
+    font-size: 16px;
+    border: 2px solid #f53c87;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+ .view-events {
+    background: transparent;
+     border-radius: 10px;
+     border: 2px solid #f53c87;
+     height: 40px;
+     width: 170px;
+}
+.view-events:hover {
+    background-color: #f53c87;
+     border-radius: 10px;
+     border: 2px solid #f53c87;
+     height: 40px;
+     width: 170px;
+}
+ button.view-events:hover a {
+     transition: 1s;
+     border-radius: 10px;
+     background-color: #ffffff;
+     color: #f53c87;
+     border: 2px solid #f53c87;
+ }
+ .live-competition a{
+     position: relative;
+     right: 19%;
+     bottom: 0%;
+}
+.control-buttons {
+    display: none;
+}
+.replay {
+    position: absolute;
+    top: 125px;
+    left: -20px;
+    color: #f53c87;
+}
+.live-competition img {
+    height: auto;
+    width: 100%;
+    opacity: 50%;
+}
+.live-competition .card-body p {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    background-color: #f53c87;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+.play-soccer h2 {
+    font-size: 25px;
+    color: #ffffff;
+}
+ .navbar-dark .navbar-nav .nav-link {
+     color: #ffffff;
+     padding: 10px 20px;
+}
+nav{
+	border: none;
+}
+}

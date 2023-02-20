@@ -1,0 +1,67 @@
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h5 class="modal-title ml-auto" id="exampleModalLabel">Sign In</h5>
+        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12">
+            <button type="button" class="btn btn-lg join-now1 mt-1" data-dismiss="modal" onclick="GoogleSignIn()">Sign in With Google
+        </button>
+          </div>
+           <div class="col-12">
+            <button type="button" class="btn btn-lg join-now1 mt-1" onclick="FacebookSignIn()">Sign in with Facebook</button>
+          </div>
+           <div class="col-12">
+            <button type="button" class="btn btn-lg join-now1 mt-1" id="email_button" onclick="emailLink()">Email</button>
+          </div>
+           <div class="col-12">
+            <button type="button" class="btn btn-lg join-now1 mt-1" id="phone_button" onclick="numberverify()">Phone</button>
+          </div>
+          <div class="col-12">
+            <div id="otp-form">
+  <p id='otp-data'></p>
+  <div class="container6 d-flex justify-content-center">
+    <input type="text" pattern="[0-9]*" inputtype="numeric" autoComplete="one-time-code" class="otc-input" id="otp" value="">
+
+    <input type="tel" pattern="[0-9]*" min="0" max="9" maxlength="1" inputtype="numeric" class="otc-input" value="">
+    <input type="number" pattern="[0-9]*" min="0" max="9" maxlength="1" inputtype="numeric" class="otc-input" id="otp" value="">
+    <input type="number" pattern="[0-9]*" min="0" max="9" maxlength="1" inputtype="numeric" class="otc-input" id="otp" value="">
+    <input type="number" pattern="[0-9]*" min="0" max="9" maxlength="1" inputtype="numeric" class="otc-input" id="otp" value="">
+    <input type="number" pattern="[0-9]*" min="0" max="9" maxlength="1" inputtype="numeric" class="otc-input" id="otp" value="">
+  </div>
+<button type="button" class="btn btn-lg join-now1 mt-2">Verify Otp</button>
+<!-- <button disabled class="hero" id="otp-submit-button">Let's go! </button> -->
+</div>
+          </div>
+
+        </div>
+        
+        
+        
+        
+      </div>
+      <!-- <div class="modal-footer">
+
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<div class="col-12">
+            <button type="button" class="btn btn-lg join-now1 mt-1" data-dismiss="modal" onclick="GoogleSignIn()">Sign in With Google
+        </button>
+          </div>
+           <div class="col-12">
+            <button type="button" class="btn btn-lg join-now1 mt-1" onclick="FacebookSignIn()">Sign in with Facebook</button>
+          </div>
+           <div class="col-12">
+            <button type="button" class="btn btn-lg join-now1 mt-1" id="email_button" onclick="emailLink()">Email</button>
+          </div>
+           <div class="col-12">
+            <button type="button" class="btn btn-lg join-now1 mt-1" id="phone_button" >Phone</button>
+          </div>

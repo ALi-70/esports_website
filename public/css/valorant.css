@@ -1,0 +1,420 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+  background-color: #1f112c;
+}
+
+.sm-icons{
+	flex-direction: row;
+	display: flex;
+}
+.sm-icons .nav-link{
+	padding: 1rem;
+}
+
+.icon{
+	list-style: none;
+	display: flex;
+}
+
+/**************************  3 cards and two card css **********************/
+
+.about-section{
+  padding: 10px 0px;
+}
+  
+.about-section img{
+  min-height: 320px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.Noob_Dia_Paradiso{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.read_more{
+  font-weight: bold;
+}
+
+.card-deck .card{
+  border: solid 2px #ffffff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card:hover{
+  transition: 0.3s ease-in;
+  box-shadow: 4px 8px 8px 4px #000;
+  margin-bottom: 2px;
+}
+
+.card-bg{
+  background-color: #1c0d24;
+}
+.read_more{
+    margin-bottom: 30px;
+}
+
+
+/******************* 3 card height css *********************************/
+
+.card-img-top{
+    height: 200px;
+}
+/**************************** font size ***********************************/
+
+@media only screen and (max-width: 991px){
+ .media-text{
+   margin-top: 60px !important; 
+ } 
+}
+
+
+@media only screen and (max-width: 475px){
+ .media-style{
+    font-size: 30px;
+ }  
+}
+ 
+/*************************** header and footer css *************************/
+
+/*Header Styles*/
+ nav img {
+     height: 50px;
+     width: 100%;
+}
+ 
+ a.nav-link {
+     color: white;
+}
+}
+ li.nav-item {
+     padding: 20px;
+}
+ li.nav-item:hover {
+/*     padding: 20px;*/
+     background-color: #f53c87;
+     transition: 0.5s;
+}
+ nav.navbar.navbar-expand-lg.navbar-dark.text-white.border.p-0 {
+     width: 100%;
+     margin-left: 0%;
+    /* background-color: #11052c;
+    */
+     border: 1px solid #565b5f!important;
+}
+
+ .join-now{
+     background-color: #f53c87;
+     color: white;
+     font-size: 18px;
+}
+ .join-now:hover{
+     background-color: #ffffff;
+     color: #3D087B;
+     font-size: 18px;
+}
+ .navbar-dark .navbar-nav .nav-link {
+     color: #ffffff;
+     padding: 13px 43px;
+}
+ .navbar-dark .navbar-nav .nav-link:hover {
+     color: #ffffff;
+}
+ .navbar-default{
+     transition:500ms ease;
+     background: #00000047;;
+}
+ .navbar-default.scrolled{
+     background:#11042c;
+}
+.dropdown-menu.show {
+    border: 1px solid #ffffff;
+    background: #11042c;
+    color: #fffff;
+    font-size: 16px;
+    min-width: 14rem;
+    text-align: center;
+}
+a.dropdown-item {
+    color: #ffffff;
+}
+a.dropdown-item:hover {
+    background-color: #f53c87;
+    color: #ffffff;
+}
+/*Header Styles end*/
+/*Footer styles Start*/
+ footer .card{
+     padding: 1% 2%;
+     color: #646771;
+     background-color: #11042b;
+}
+ footer ul{
+     list-style-type: none;
+}
+ footer ul >li{
+     padding: 2px;
+     color: #ffffff;
+}
+ footer ul >li i{
+     color: #f53c87;
+}
+ footer ul > li:hover{
+     color:#f53c87;
+     cursor: pointer;
+}
+footer ul > li a{
+     color:#ffffff;
+}
+footer ul > li a:hover{
+     color:#f53c87;
+     text-decoration: none;
+}
+ footer hr{
+     border-width: 3px;
+}
+ footer img{
+     height: auto;
+     width: 100px;
+}
+ footer p {
+     margin-top: 0;
+     margin-bottom: -22px;
+}
+ .social > i{
+     padding: 1%;
+     font-size: 15px;
+}
+ .social > i:hover{
+     color:#957bda;
+     cursor:pointer;
+}
+ .policy > div{
+     padding: 4px;
+}
+ .heading{
+     font-family: 'Titillium Web', sans-serif;
+     color: white;
+     font-size: 25px;
+}
+ .divider{
+     border-top: 2px solid rgba(189, 196, 203, 0.5);
+}
+ .navbar-dark .navbar-toggler {
+     background-color: #f53c87;
+     color: #ffffff;
+     border: none;
+}
+/*Footer styles end*/
+/**************************** 1st carousel *************************/
+
+#carouselExampleIndicators{position:relative; z-index:1; background:url(https://i.imgur.com/6axE29k.jpg) center center no-repeat; background-size:cover; }
+.carousel_caption h1 {
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 0 0 5px;
+  text-transform: uppercase;
+}
+.carousel_caption h2 {
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-family: Oswald;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.carousel_caption p {
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 13px;
+}
+.carousel_caption a {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.carousel-item {
+  min-height: 500px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item a{background:#673AB7; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
+.carousel-item a:hover{background:#394fa2; text-decoration:none;  }
+
+.carousel-item h2{-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;} 
+.carousel-item p{-webkit-animation-name:slideInRight; animation-name:slideInRight;} 
+.carousel-item a{-webkit-animation-name:fadeInUp; animation-name:fadeInUp;}
+.carousel-item .mask img{-webkit-animation-name:slideInRight; animation-name:slideInRight; display:block; height:auto; max-width:100%;}
+#carouselExampleIndicators h2, #carouselExampleIndicators p, #carouselExampleIndicators a, #carouselExampleIndicators .carousel-item .mask img{-webkit-animation-duration: 1s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+.carousel-control-next, .carousel-control-prev {
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    background-color: #673AB7;
+}
+.carousel-fade .carousel-item {
+    opacity: 0;
+    -webkit-transition-duration: .6s;
+    transition-duration: .6s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity
+}
+.carousel-fade .carousel-item-next.carousel-item-left, .carousel-fade .carousel-item-prev.carousel-item-right, .carousel-fade .carousel-item.active {
+    opacity: 1
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-right.active {
+    opacity: 0
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0)
+}
+@supports (transform-style:preserve-3d) {
+    .carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+    -webkit-transform:translate3d(0, 0, 0);
+    transform:translate3d(0, 0, 0)
+    }
+}
+.carousel-fade .carousel-item-left.active, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item-prev.active, .carousel-fade .carousel-item.active {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}
+
+
+
+/**************************** product card slider *************************/
+
+
+
+
